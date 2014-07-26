@@ -1,6 +1,11 @@
 #!/bin/bash
-#how to upgrade brew cask application
-#brew cask install dropbox --force --download
+#
+# By Eric Spector 
+#
+# note:  how to upgrade brew cask application
+# unfortunately brew cask doesn't support app update, so you'll need to re-download by running the following command:
+# brew cask install <appname> --force --download
+
 #download ann install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
@@ -29,6 +34,7 @@ brew cask install amazon-music
 #install misc applications
 brew cask install adobe-reader
 brew cask install caffeine
+brew cask install colloquy
 brew cask install cyberduck
 brew cask install deluge
 brew cask install mucommander
