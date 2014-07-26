@@ -6,7 +6,7 @@
 # unfortunately brew cask doesn't support app update, so you'll need to re-download by running the following command:
 # brew cask install <appname> --force --download
 
-#download ann install homebrew
+#download and install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 #install command line utilities
