@@ -2,3 +2,4 @@ source /usr/local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.
 POWERLINE_COMMAND="$POWERLINE_COMMAND -c ext.shell.theme=default_leftonly"
 
 export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
