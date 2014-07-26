@@ -74,4 +74,8 @@ cp files/bash/.bash_profile ~/
 #install powerline fonts
 wget https://raw.githubusercontent.com/Lokaltog/powerline-fonts/master/Inconsolata/Inconsolata%20for%20Powerline.otf --directory-prefix=/tmp/
 open "/tmp/Inconsolata for Powerline.otf"
-osascript -e 'tell app "System Events" to display dialog "Remember to set your Terminal font to Inconsolata for Powerline"'
+
+wget https://raw.githubusercontent.com/Lokaltog/powerline-fonts/master/SourceCodePro/Sauce%20Code%20Powerline%20Regular.otf --directory-prefix=/tmp/
+open "/tmp/Sauce Code Powerline Regular.otf"
+
+osascript -e 'tell app "System Events" to display dialog "Remember to set your Terminal or font to Inconsolata for Powerline or Sauce Code for PowerLine"'
