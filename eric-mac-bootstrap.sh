@@ -21,9 +21,6 @@ brew install python
 brew install vim --env-std --override-system-vim
 pip install https://github.com/Lokaltog/powerline/tarball/develop
 
-wget https://raw.githubusercontent.com/Lokaltog/powerline-fonts/master/Inconsolata/Inconsolata%20for%20Powerline.otf --directory-prefix=/tmp/
-open "/tmp/Inconsolata for Powerline.otf"
-
 #install cask
 brew tap caskroom/cask
 brew install caskroom/cask/brew-cask
@@ -73,4 +70,8 @@ cp files/vim/.vimrc ~/
 cp files/zsh/.zshrc ~/
 cp files/tmux/.tmux.conf ~/
 cp files/bash/.bash_profile ~/
+
+#install powerline fonts
+wget https://raw.githubusercontent.com/Lokaltog/powerline-fonts/master/Inconsolata/Inconsolata%20for%20Powerline.otf --directory-prefix=/tmp/
+open "/tmp/Inconsolata for Powerline.otf"
 osascript -e 'tell app "System Events" to display dialog "Remember to set your Terminal font to Inconsolata for Powerline"'
