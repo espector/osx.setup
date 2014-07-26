@@ -37,6 +37,8 @@ brew cask install caffeine
 brew cask install colloquy
 brew cask install cyberduck
 brew cask install deluge
+brew cask install joinme
+brew cask install logitech-myharmony
 brew cask install mucommander
 brew cask install pdfsam
 brew cask install picasa
@@ -53,10 +55,6 @@ brew cask install xquartz
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install wineskin-winery
-
-#misc apps
-brew cask install joinme
-brew cask install logitech-myharmony
 
 #remove downloaded files
 brew cask cleanup
