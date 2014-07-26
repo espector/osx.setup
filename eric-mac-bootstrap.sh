@@ -49,6 +49,7 @@ brew cask install handbrake
 brew cask install vlc
 
 #install dev tools
+brew cask install github
 brew cask install sublime-text
 brew cask install sequel-pro
 brew cask install xquartz
