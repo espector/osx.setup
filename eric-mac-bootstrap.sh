@@ -15,11 +15,8 @@ brew install highlight
 brew install imagemagick
 brew install phantomjs
 brew install wget
-
-#install powerline per - http://blog.codefront.net/2013/10/27/installing-powerline-on-os-x-homebrew/
 brew install python
 brew install vim --env-std --override-system-vim
-pip install https://github.com/Lokaltog/powerline/tarball/develop
 
 #install cask
 brew tap caskroom/cask
@@ -68,14 +65,10 @@ brew cask cleanup
 #copy config files
 cp files/vim/.vimrc ~/
 cp files/zsh/.zshrc ~/
-cp files/tmux/.tmux.conf ~/
-cp files/bash/.bash_profile ~/
 
-#install powerline fonts
-wget https://raw.githubusercontent.com/Lokaltog/powerline-fonts/master/Inconsolata/Inconsolata%20for%20Powerline.otf --directory-prefix=/tmp/
-open "/tmp/Inconsolata for Powerline.otf"
-
-wget https://raw.githubusercontent.com/Lokaltog/powerline-fonts/master/SourceCodePro/Sauce%20Code%20Powerline%20Regular.otf --directory-prefix=/tmp/
-open "/tmp/Sauce Code Powerline Regular.otf"
-
-osascript -e 'tell app "System Events" to display dialog "Remember to set your Terminal or font to Inconsolata for Powerline or Sauce Code for PowerLine"'
+#install zsh as default shell
+brew install zsh
+sudo -s -- "echo /usr/local/bin/zsh >> /etc/shells"
+chsh -s /usr/local/bin/zsh
+#install ohmyzsh
+curl -L http://install.ohmyz.sh | sh
