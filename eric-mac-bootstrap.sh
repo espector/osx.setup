@@ -62,13 +62,16 @@ brew cask install wineskin-winery
 #remove downloaded files
 brew cask cleanup
 
-#copy config files
-cp files/vim/.vimrc ~/
-cp files/zsh/.zshrc ~/
-
 #install zsh as default shell
 brew install zsh
 sudo -s -- "echo /usr/local/bin/zsh >> /etc/shells"
 chsh -s /usr/local/bin/zsh
 #install ohmyzsh
 curl -L http://install.ohmyz.sh | sh
+
+#copy config files
+cp files/zsh/.zshrc ~/
+
+#install vim awesome - per https://github.com/amix/vimrc
+git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
