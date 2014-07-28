@@ -8,6 +8,7 @@
 
 #download and install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew doctor
 
 #install command line utilities
 brew install ffmpeg
