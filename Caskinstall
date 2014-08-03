@@ -1,0 +1,47 @@
+#install cask
+tap caskroom/cask
+install caskroom/cask/brew-cask
+
+#install browsers
+cask install google-chrome
+cask install firefox
+
+#install cloud services
+cask install dropbox
+cask install google-drive
+cask install evernote
+cask install skitch
+cask install amazon-music
+
+#install misc applications
+cask install adobe-reader
+cask install caffeine
+cask install colloquy
+cask install cyberduck
+cask install deluge
+cask install fluid
+cask install flux
+cask install joinme
+cask install logitech-myharmony
+cask install mame 
+cask install mucommander
+cask install openemu
+cask install pdfsam
+cask install picasa
+cask install the-unarchiver
+
+#install media tools
+cask install calibre
+cask install handbrake
+cask install vlc
+
+#install dev tools
+cask install dash
+cask install github
+cask install iterm2
+cask install sublime-text
+cask install sequel-pro
+cask install xquartz
+cask install virtualbox
+cask install vagrant
+cask install wineskin-winery
