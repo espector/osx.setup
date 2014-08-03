@@ -1,3 +1,9 @@
+#zsh completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+#zsh highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
