@@ -94,6 +94,10 @@ cp files/zsh/.zshrc ~/
 git clone git://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_basic_vimrc.sh
 
+###############################################################################
+# Terminal                                                                    #
+###############################################################################
+
 #setup solarized theme in the terminal
 git clone git://github.com/altercation/solarized.git ~/.solarized
 
@@ -109,3 +113,13 @@ if [ "${CURRENT_PROFILE}" != "${TERM_PROFILE}" ]; then
 	defaults write com.apple.terminal 'Default Window Settings' -string "${TERM_PROFILE}";
 	defaults write com.apple.terminal 'Startup Window Settings' -string "${TERM_PROFILE}";
 fi;
+
+###############################################################################
+# Mac App Store                                                               #
+###############################################################################
+
+# Enable the WebKit Developer Tools in the Mac App Store
+defaults write com.apple.appstore WebKitDeveloperExtras -bool true
+
+# Enable Debug Menu in the Mac App Store
+defaults write com.apple.appstore ShowDebugMenu -bool true
