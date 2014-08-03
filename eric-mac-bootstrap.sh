@@ -14,6 +14,7 @@ xcode-select --install
 
 #download and install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew doctor
 
 #install command line utilities
 brew install ffmpeg
@@ -91,7 +92,7 @@ cp files/zsh/.zshrc ~/
 
 #install vim awesome - per https://github.com/amix/vimrc
 git clone git://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
+sh ~/.vim_runtime/install_basic_vimrc.sh
 
 #setup solarized theme in the terminal
 git clone git://github.com/altercation/solarized.git ~/.solarized
