@@ -1,2 +1,3 @@
 #!/bin/bash
-brew update && brew install `brew outdated`
+brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+brew install `brew outdated`
