@@ -30,7 +30,10 @@ cask install mucommander
 cask install openemu
 cask install pdfsam
 cask install picasa
+cask install private-internet-access
+cask install rename
 cask install the-unarchiver
+cask install utorrent
 
 #install media tools
 cask install calibre
@@ -41,6 +44,7 @@ cask install vlc
 cask install dash
 cask install github
 cask install iterm2
+cask install java
 cask install sublime-text
 cask install sequel-pro
 cask install xquartz
