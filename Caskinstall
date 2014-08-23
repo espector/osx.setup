@@ -30,7 +30,7 @@ cask install mucommander
 cask install openemu
 cask install pdfsam
 cask install picasa
-cask install private-internet-access
+#########cask install private-internet-access
 cask install rename
 cask install the-unarchiver
 cask install utorrent
