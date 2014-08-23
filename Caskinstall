@@ -1,10 +1,12 @@
 #install cask
 tap caskroom/cask
 install caskroom/cask/brew-cask
+tap caskroom/versions
 
 #install browsers
-cask install google-chrome
 cask install firefox
+cask install google-chrome
+cask install google-chrome-canary
 
 #install cloud services
 cask install dropbox
