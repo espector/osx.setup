@@ -24,6 +24,9 @@ install bash-completion
 # Install wget with IRI support
 install wget --enable-iri
 
+# Install development tools
+install git
+
 #install command line utilities
 install ffmpeg
 install highlight
